@@ -1,0 +1,501 @@
+product_id,product_name,category,supplier,warehouse,unit_cost_eur,storage_cost_per_unit_eur,shelf_life_days,min_stock_units,max_stock_units
+PROD0001,Specialty Pharma Product 1,Specialty Pharma,Supplier_B,Mannheim HQ,60.1,3.876,340,164,1643
+PROD0002,Specialty Pharma Product 2,Specialty Pharma,Supplier_B,Cologne,28.05,1.808,648,94,3956
+PROD0003,Prescription Drugs Product 3,Prescription Drugs,Supplier_A,Mannheim HQ,72.04,2.386,607,358,717
+PROD0004,Vaccines Product 4,Vaccines,Supplier_D,Cologne,205.95,12.15,648,264,2305
+PROD0005,Vitamins & Supplements Product 5,Vitamins & Supplements,Supplier_J,Berlin,25.0,1.714,96,438,1807
+PROD0006,Specialty Pharma Product 6,Specialty Pharma,Supplier_G,Berlin,25.0,0.917,310,440,3257
+PROD0007,Prescription Drugs Product 7,Prescription Drugs,Supplier_B,Hamburg,220.31,5.685,442,359,2666
+PROD0008,Prescription Drugs Product 8,Prescription Drugs,Supplier_L,Hamburg,83.17,4.339,477,90,2901
+PROD0009,Specialty Pharma Product 9,Specialty Pharma,Supplier_J,Berlin,18.85,1.03,161,73,2366
+PROD0010,Medical Devices Product 10,Medical Devices,Supplier_B,Munich,63.5,4.571,479,192,4214
+PROD0011,Specialty Pharma Product 11,Specialty Pharma,Supplier_F,Munich,18.99,0.802,304,393,2687
+PROD0012,Specialty Pharma Product 12,Specialty Pharma,Supplier_K,Cologne,18.94,0.46,265,323,2505
+PROD0013,OTC Medication Product 13,OTC Medication,Supplier_H,Hamburg,44.27,1.603,660,162,3156
+PROD0014,Prescription Drugs Product 14,Prescription Drugs,Supplier_D,Mannheim HQ,3.33,0.228,500,187,1042
+PROD0015,OTC Medication Product 15,OTC Medication,Supplier_J,Cologne,4.18,0.162,601,252,4258
+PROD0016,OTC Medication Product 16,OTC Medication,Supplier_E,Munich,16.87,0.587,664,325,2652
+PROD0017,Specialty Pharma Product 17,Specialty Pharma,Supplier_J,Hamburg,9.82,0.726,498,235,2296
+PROD0018,OTC Medication Product 18,OTC Medication,Supplier_I,Hamburg,48.28,1.229,138,490,1398
+PROD0019,OTC Medication Product 19,OTC Medication,Supplier_K,Munich,11.14,0.752,522,355,1020
+PROD0020,Vitamins & Supplements Product 20,Vitamins & Supplements,Supplier_G,Frankfurt,6.08,0.485,631,178,594
+PROD0021,Specialty Pharma Product 21,Specialty Pharma,Supplier_L,Mannheim HQ,192.25,11.708,639,434,2685
+PROD0022,Specialty Pharma Product 22,Specialty Pharma,Supplier_F,Mannheim HQ,25.26,0.95,251,282,526
+PROD0023,Specialty Pharma Product 23,Specialty Pharma,Supplier_L,Berlin,35.91,2.812,272,309,1371
+PROD0024,Specialty Pharma Product 24,Specialty Pharma,Supplier_E,Cologne,5.99,0.302,293,128,3563
+PROD0025,OTC Medication Product 25,OTC Medication,Supplier_I,Frankfurt,17.23,1.294,703,215,4502
+PROD0026,Prescription Drugs Product 26,Prescription Drugs,Supplier_B,Berlin,37.83,2.751,404,172,974
+PROD0027,OTC Medication Product 27,OTC Medication,Supplier_J,Mannheim HQ,8.32,0.209,587,467,1066
+PROD0028,Vaccines Product 28,Vaccines,Supplier_C,Munich,51.98,3.097,652,134,2671
+PROD0029,Vaccines Product 29,Vaccines,Supplier_J,Hamburg,16.11,1.254,642,436,2147
+PROD0030,Specialty Pharma Product 30,Specialty Pharma,Supplier_E,Hamburg,23.34,1.86,472,274,4739
+PROD0031,Vitamins & Supplements Product 31,Vitamins & Supplements,Supplier_B,Munich,16.09,0.539,436,60,2385
+PROD0032,Vaccines Product 32,Vaccines,Supplier_D,Mannheim HQ,305.74,7.417,150,167,1052
+PROD0033,Prescription Drugs Product 33,Prescription Drugs,Supplier_F,Mannheim HQ,32.58,1.657,375,392,4476
+PROD0034,OTC Medication Product 34,OTC Medication,Supplier_I,Munich,9.31,0.59,674,345,4372
+PROD0035,OTC Medication Product 35,OTC Medication,Supplier_H,Hamburg,88.86,2.792,189,387,4031
+PROD0036,Medical Devices Product 36,Medical Devices,Supplier_G,Hamburg,7.65,0.367,145,394,1306
+PROD0037,Prescription Drugs Product 37,Prescription Drugs,Supplier_G,Cologne,42.55,1.717,201,177,2069
+PROD0038,OTC Medication Product 38,OTC Medication,Supplier_I,Hamburg,3.15,0.09,277,192,4289
+PROD0039,OTC Medication Product 39,OTC Medication,Supplier_B,Hamburg,6.73,0.461,653,100,914
+PROD0040,Specialty Pharma Product 40,Specialty Pharma,Supplier_I,Mannheim HQ,41.94,3.277,332,135,3829
+PROD0041,Vitamins & Supplements Product 41,Vitamins & Supplements,Supplier_H,Munich,80.33,5.774,150,134,3604
+PROD0042,Prescription Drugs Product 42,Prescription Drugs,Supplier_G,Berlin,40.68,3.075,555,196,3965
+PROD0043,Specialty Pharma Product 43,Specialty Pharma,Supplier_L,Frankfurt,28.82,1.721,588,129,2055
+PROD0044,Medical Devices Product 44,Medical Devices,Supplier_D,Mannheim HQ,23.07,1.263,645,81,3069
+PROD0045,Prescription Drugs Product 45,Prescription Drugs,Supplier_A,Frankfurt,5.62,0.273,633,130,965
+PROD0046,Vaccines Product 46,Vaccines,Supplier_B,Munich,13.96,0.337,159,395,2426
+PROD0047,Vitamins & Supplements Product 47,Vitamins & Supplements,Supplier_B,Frankfurt,19.05,0.663,698,70,1171
+PROD0048,Vitamins & Supplements Product 48,Vitamins & Supplements,Supplier_K,Frankfurt,117.75,6.348,413,183,2173
+PROD0049,Specialty Pharma Product 49,Specialty Pharma,Supplier_L,Berlin,50.02,1.717,495,117,2957
+PROD0050,Vitamins & Supplements Product 50,Vitamins & Supplements,Supplier_F,Mannheim HQ,3.99,0.082,726,338,1319
+PROD0051,Prescription Drugs Product 51,Prescription Drugs,Supplier_I,Munich,48.86,2.46,225,228,1063
+PROD0052,OTC Medication Product 52,OTC Medication,Supplier_F,Berlin,20.86,0.615,646,410,2978
+PROD0053,Vaccines Product 53,Vaccines,Supplier_K,Frankfurt,14.7,0.301,657,203,1348
+PROD0054,OTC Medication Product 54,OTC Medication,Supplier_E,Mannheim HQ,68.99,5.063,656,129,2731
+PROD0055,Medical Devices Product 55,Medical Devices,Supplier_J,Munich,114.11,7.196,298,401,2662
+PROD0056,Vaccines Product 56,Vaccines,Supplier_H,Berlin,101.24,7.524,142,97,3969
+PROD0057,Medical Devices Product 57,Medical Devices,Supplier_A,Mannheim HQ,12.1,0.484,223,376,2645
+PROD0058,OTC Medication Product 58,OTC Medication,Supplier_L,Hamburg,22.85,1.213,527,337,579
+PROD0059,Prescription Drugs Product 59,Prescription Drugs,Supplier_B,Cologne,49.28,3.658,648,68,3524
+PROD0060,Vaccines Product 60,Vaccines,Supplier_I,Munich,106.77,4.889,132,207,3487
+PROD0061,Prescription Drugs Product 61,Prescription Drugs,Supplier_F,Munich,18.63,1.135,195,231,3829
+PROD0062,Vaccines Product 62,Vaccines,Supplier_L,Munich,26.5,2.002,332,492,1831
+PROD0063,OTC Medication Product 63,OTC Medication,Supplier_G,Mannheim HQ,8.78,0.27,430,450,3872
+PROD0064,Specialty Pharma Product 64,Specialty Pharma,Supplier_L,Munich,7.88,0.284,200,245,817
+PROD0065,Vitamins & Supplements Product 65,Vitamins & Supplements,Supplier_D,Munich,87.8,6.058,561,229,3000
+PROD0066,OTC Medication Product 66,OTC Medication,Supplier_D,Mannheim HQ,168.59,10.048,498,218,2782
+PROD0067,Prescription Drugs Product 67,Prescription Drugs,Supplier_E,Berlin,30.37,1.777,499,397,4892
+PROD0068,Medical Devices Product 68,Medical Devices,Supplier_A,Mannheim HQ,110.41,8.019,357,141,2674
+PROD0069,Prescription Drugs Product 69,Prescription Drugs,Supplier_B,Frankfurt,51.11,2.355,411,273,4689
+PROD0070,Prescription Drugs Product 70,Prescription Drugs,Supplier_G,Frankfurt,15.27,0.48,135,412,4072
+PROD0071,Prescription Drugs Product 71,Prescription Drugs,Supplier_I,Frankfurt,51.09,3.128,291,236,4033
+PROD0072,Prescription Drugs Product 72,Prescription Drugs,Supplier_K,Berlin,209.69,12.034,217,418,2960
+PROD0073,Vaccines Product 73,Vaccines,Supplier_E,Cologne,31.72,1.412,502,406,2922
+PROD0074,Vaccines Product 74,Vaccines,Supplier_C,Munich,216.5,9.791,478,396,1925
+PROD0075,Vaccines Product 75,Vaccines,Supplier_J,Berlin,1.43,0.063,90,205,2850
+PROD0076,OTC Medication Product 76,OTC Medication,Supplier_G,Frankfurt,88.79,5.008,419,288,4119
+PROD0077,Vitamins & Supplements Product 77,Vitamins & Supplements,Supplier_K,Munich,36.76,1.863,263,387,1194
+PROD0078,Medical Devices Product 78,Medical Devices,Supplier_I,Cologne,23.13,1.341,433,97,2424
+PROD0079,Specialty Pharma Product 79,Specialty Pharma,Supplier_E,Munich,36.97,2.529,240,62,878
+PROD0080,OTC Medication Product 80,OTC Medication,Supplier_H,Frankfurt,3.05,0.216,164,283,3895
+PROD0081,Specialty Pharma Product 81,Specialty Pharma,Supplier_J,Munich,25.44,1.605,483,303,3773
+PROD0082,OTC Medication Product 82,OTC Medication,Supplier_C,Cologne,50.83,3.114,199,448,3982
+PROD0083,OTC Medication Product 83,OTC Medication,Supplier_C,Cologne,195.09,9.965,141,335,2541
+PROD0084,Prescription Drugs Product 84,Prescription Drugs,Supplier_H,Munich,17.78,1.211,633,336,3099
+PROD0085,Vitamins & Supplements Product 85,Vitamins & Supplements,Supplier_J,Cologne,12.55,0.923,526,475,4988
+PROD0086,Vitamins & Supplements Product 86,Vitamins & Supplements,Supplier_C,Cologne,18.14,1.3,550,182,2525
+PROD0087,Specialty Pharma Product 87,Specialty Pharma,Supplier_E,Frankfurt,99.33,4.875,334,190,4103
+PROD0088,Prescription Drugs Product 88,Prescription Drugs,Supplier_L,Berlin,49.13,1.674,433,213,4924
+PROD0089,Prescription Drugs Product 89,Prescription Drugs,Supplier_C,Munich,17.54,0.594,246,411,2252
+PROD0090,Prescription Drugs Product 90,Prescription Drugs,Supplier_G,Hamburg,61.31,2.443,567,262,1010
+PROD0091,OTC Medication Product 91,OTC Medication,Supplier_G,Hamburg,37.21,2.764,688,406,660
+PROD0092,Vaccines Product 92,Vaccines,Supplier_G,Hamburg,105.89,2.155,450,202,3694
+PROD0093,Vitamins & Supplements Product 93,Vitamins & Supplements,Supplier_I,Cologne,14.26,0.914,707,162,4499
+PROD0094,OTC Medication Product 94,OTC Medication,Supplier_E,Hamburg,22.35,1.098,488,222,3812
+PROD0095,Specialty Pharma Product 95,Specialty Pharma,Supplier_C,Hamburg,20.69,1.555,727,323,720
+PROD0096,Vitamins & Supplements Product 96,Vitamins & Supplements,Supplier_J,Frankfurt,5.72,0.342,175,379,4011
+PROD0097,OTC Medication Product 97,OTC Medication,Supplier_H,Munich,47.24,1.087,478,217,2233
+PROD0098,Vitamins & Supplements Product 98,Vitamins & Supplements,Supplier_F,Berlin,45.3,2.975,478,192,3953
+PROD0099,Medical Devices Product 99,Medical Devices,Supplier_B,Hamburg,33.32,0.705,642,76,3366
+PROD0100,OTC Medication Product 100,OTC Medication,Supplier_K,Mannheim HQ,24.99,1.671,131,436,754
+PROD0101,OTC Medication Product 101,OTC Medication,Supplier_D,Mannheim HQ,6.06,0.347,334,114,4379
+PROD0102,Specialty Pharma Product 102,Specialty Pharma,Supplier_B,Frankfurt,19.99,1.537,566,408,2599
+PROD0103,Medical Devices Product 103,Medical Devices,Supplier_C,Frankfurt,21.95,1.239,207,448,1841
+PROD0104,Medical Devices Product 104,Medical Devices,Supplier_B,Frankfurt,12.65,0.272,409,344,3574
+PROD0105,Vitamins & Supplements Product 105,Vitamins & Supplements,Supplier_L,Munich,27.29,0.67,338,102,2970
+PROD0106,Specialty Pharma Product 106,Specialty Pharma,Supplier_J,Mannheim HQ,53.78,3.645,669,450,836
+PROD0107,Medical Devices Product 107,Medical Devices,Supplier_I,Hamburg,318.44,19.008,160,309,3295
+PROD0108,Prescription Drugs Product 108,Prescription Drugs,Supplier_G,Hamburg,40.83,1.075,460,375,4266
+PROD0109,Specialty Pharma Product 109,Specialty Pharma,Supplier_C,Hamburg,45.11,1.379,624,383,2712
+PROD0110,Vaccines Product 110,Vaccines,Supplier_I,Hamburg,30.29,1.45,696,187,3140
+PROD0111,OTC Medication Product 111,OTC Medication,Supplier_B,Berlin,3.31,0.241,339,434,4306
+PROD0112,Vaccines Product 112,Vaccines,Supplier_J,Cologne,32.08,1.371,119,303,3162
+PROD0113,OTC Medication Product 113,OTC Medication,Supplier_H,Munich,35.6,1.47,354,224,2790
+PROD0114,Vaccines Product 114,Vaccines,Supplier_L,Berlin,636.44,33.952,619,147,1201
+PROD0115,OTC Medication Product 115,OTC Medication,Supplier_L,Hamburg,26.29,1.296,336,403,4400
+PROD0116,Specialty Pharma Product 116,Specialty Pharma,Supplier_L,Hamburg,47.55,2.23,107,97,2910
+PROD0117,OTC Medication Product 117,OTC Medication,Supplier_G,Cologne,31.76,1.099,685,238,4376
+PROD0118,Vaccines Product 118,Vaccines,Supplier_I,Berlin,8.15,0.371,653,219,3382
+PROD0119,Specialty Pharma Product 119,Specialty Pharma,Supplier_H,Berlin,130.5,5.011,326,111,2077
+PROD0120,Medical Devices Product 120,Medical Devices,Supplier_B,Cologne,81.64,4.258,279,148,2272
+PROD0121,Specialty Pharma Product 121,Specialty Pharma,Supplier_H,Berlin,85.56,5.431,627,355,2818
+PROD0122,Prescription Drugs Product 122,Prescription Drugs,Supplier_D,Berlin,11.12,0.374,273,204,615
+PROD0123,Specialty Pharma Product 123,Specialty Pharma,Supplier_I,Munich,178.28,6.5,145,333,2893
+PROD0124,Specialty Pharma Product 124,Specialty Pharma,Supplier_C,Cologne,6.16,0.444,592,102,600
+PROD0125,Vaccines Product 125,Vaccines,Supplier_E,Hamburg,66.97,3.263,438,144,920
+PROD0126,Medical Devices Product 126,Medical Devices,Supplier_H,Mannheim HQ,458.77,31.805,500,301,1106
+PROD0127,Vaccines Product 127,Vaccines,Supplier_K,Cologne,10.09,0.234,242,465,2989
+PROD0128,Prescription Drugs Product 128,Prescription Drugs,Supplier_D,Mannheim HQ,16.78,0.898,516,360,2348
+PROD0129,Vaccines Product 129,Vaccines,Supplier_G,Hamburg,37.32,2.781,394,490,4012
+PROD0130,Medical Devices Product 130,Medical Devices,Supplier_J,Frankfurt,18.1,0.427,191,440,2202
+PROD0131,Specialty Pharma Product 131,Specialty Pharma,Supplier_D,Berlin,5.15,0.307,250,172,1923
+PROD0132,Vaccines Product 132,Vaccines,Supplier_B,Munich,35.96,0.725,551,402,4349
+PROD0133,Medical Devices Product 133,Medical Devices,Supplier_A,Munich,9.26,0.345,379,409,4219
+PROD0134,Prescription Drugs Product 134,Prescription Drugs,Supplier_K,Munich,58.46,4.41,730,351,2120
+PROD0135,Vitamins & Supplements Product 135,Vitamins & Supplements,Supplier_B,Frankfurt,10.99,0.368,242,186,1665
+PROD0136,Prescription Drugs Product 136,Prescription Drugs,Supplier_A,Munich,212.71,14.37,699,433,2864
+PROD0137,Vitamins & Supplements Product 137,Vitamins & Supplements,Supplier_B,Hamburg,12.94,0.793,502,189,4599
+PROD0138,Vaccines Product 138,Vaccines,Supplier_H,Hamburg,22.5,0.559,130,271,3140
+PROD0139,Vaccines Product 139,Vaccines,Supplier_E,Mannheim HQ,87.9,2.24,679,350,669
+PROD0140,Specialty Pharma Product 140,Specialty Pharma,Supplier_E,Frankfurt,7.56,0.169,269,290,4751
+PROD0141,Specialty Pharma Product 141,Specialty Pharma,Supplier_H,Berlin,43.51,1.344,689,273,4528
+PROD0142,Prescription Drugs Product 142,Prescription Drugs,Supplier_H,Berlin,158.95,7.073,418,393,1356
+PROD0143,OTC Medication Product 143,OTC Medication,Supplier_F,Hamburg,4.81,0.296,385,389,3780
+PROD0144,Vaccines Product 144,Vaccines,Supplier_A,Hamburg,41.33,1.045,348,215,1449
+PROD0145,Vitamins & Supplements Product 145,Vitamins & Supplements,Supplier_I,Mannheim HQ,45.23,2.69,645,286,3885
+PROD0146,Prescription Drugs Product 146,Prescription Drugs,Supplier_D,Frankfurt,84.62,3.529,600,370,4121
+PROD0147,Prescription Drugs Product 147,Prescription Drugs,Supplier_D,Berlin,7.51,0.397,384,274,4470
+PROD0148,Prescription Drugs Product 148,Prescription Drugs,Supplier_A,Cologne,6.79,0.384,335,413,1797
+PROD0149,Medical Devices Product 149,Medical Devices,Supplier_I,Mannheim HQ,61.95,3.292,185,165,1429
+PROD0150,Vitamins & Supplements Product 150,Vitamins & Supplements,Supplier_B,Cologne,47.29,3.307,600,416,2890
+PROD0151,Vaccines Product 151,Vaccines,Supplier_L,Berlin,44.73,2.01,584,291,2496
+PROD0152,Vitamins & Supplements Product 152,Vitamins & Supplements,Supplier_I,Munich,50.19,2.159,703,310,1618
+PROD0153,Prescription Drugs Product 153,Prescription Drugs,Supplier_E,Hamburg,14.64,0.591,609,186,521
+PROD0154,Medical Devices Product 154,Medical Devices,Supplier_L,Berlin,43.76,3.074,683,387,4511
+PROD0155,OTC Medication Product 155,OTC Medication,Supplier_H,Frankfurt,47.07,2.309,430,332,4951
+PROD0156,Vitamins & Supplements Product 156,Vitamins & Supplements,Supplier_H,Berlin,14.05,1.014,334,342,3637
+PROD0157,OTC Medication Product 157,OTC Medication,Supplier_G,Mannheim HQ,310.73,12.147,574,411,3623
+PROD0158,Vitamins & Supplements Product 158,Vitamins & Supplements,Supplier_K,Cologne,58.48,4.611,597,68,1534
+PROD0159,Vaccines Product 159,Vaccines,Supplier_J,Berlin,7.93,0.572,540,101,4808
+PROD0160,Vitamins & Supplements Product 160,Vitamins & Supplements,Supplier_A,Cologne,72.81,2.086,248,88,4346
+PROD0161,Medical Devices Product 161,Medical Devices,Supplier_F,Frankfurt,10.28,0.633,172,486,3191
+PROD0162,Specialty Pharma Product 162,Specialty Pharma,Supplier_I,Hamburg,85.16,6.578,589,496,4932
+PROD0163,Prescription Drugs Product 163,Prescription Drugs,Supplier_J,Mannheim HQ,133.0,4.533,384,166,1240
+PROD0164,Vitamins & Supplements Product 164,Vitamins & Supplements,Supplier_B,Cologne,12.37,0.77,192,277,1862
+PROD0165,Specialty Pharma Product 165,Specialty Pharma,Supplier_E,Mannheim HQ,105.22,2.395,147,200,3436
+PROD0166,Medical Devices Product 166,Medical Devices,Supplier_G,Munich,54.34,1.883,511,339,1975
+PROD0167,OTC Medication Product 167,OTC Medication,Supplier_C,Mannheim HQ,88.81,5.024,481,367,2472
+PROD0168,Vitamins & Supplements Product 168,Vitamins & Supplements,Supplier_J,Munich,322.52,10.943,350,285,2591
+PROD0169,Specialty Pharma Product 169,Specialty Pharma,Supplier_A,Hamburg,24.67,1.827,649,130,1105
+PROD0170,Vitamins & Supplements Product 170,Vitamins & Supplements,Supplier_F,Frankfurt,13.4,0.509,524,403,2548
+PROD0171,Vitamins & Supplements Product 171,Vitamins & Supplements,Supplier_E,Munich,11.39,0.911,584,104,2443
+PROD0172,Vitamins & Supplements Product 172,Vitamins & Supplements,Supplier_J,Berlin,12.44,0.678,392,61,3742
+PROD0173,Medical Devices Product 173,Medical Devices,Supplier_A,Frankfurt,30.19,2.171,140,360,4569
+PROD0174,Medical Devices Product 174,Medical Devices,Supplier_D,Frankfurt,49.87,3.397,314,375,2057
+PROD0175,Vaccines Product 175,Vaccines,Supplier_E,Cologne,46.16,3.016,230,371,1295
+PROD0176,Specialty Pharma Product 176,Specialty Pharma,Supplier_K,Mannheim HQ,89.36,3.443,541,67,3488
+PROD0177,Specialty Pharma Product 177,Specialty Pharma,Supplier_C,Mannheim HQ,33.64,2.509,424,432,3903
+PROD0178,OTC Medication Product 178,OTC Medication,Supplier_D,Munich,189.47,12.731,464,321,4610
+PROD0179,Medical Devices Product 179,Medical Devices,Supplier_C,Berlin,24.1,1.804,583,462,2917
+PROD0180,Specialty Pharma Product 180,Specialty Pharma,Supplier_F,Mannheim HQ,866.28,41.668,167,122,2348
+PROD0181,Specialty Pharma Product 181,Specialty Pharma,Supplier_L,Cologne,70.16,5.528,660,237,1239
+PROD0182,Vitamins & Supplements Product 182,Vitamins & Supplements,Supplier_A,Berlin,11.84,0.618,555,238,2647
+PROD0183,Vaccines Product 183,Vaccines,Supplier_G,Cologne,9.16,0.7,200,395,2415
+PROD0184,Vitamins & Supplements Product 184,Vitamins & Supplements,Supplier_A,Frankfurt,59.08,4.316,664,217,2313
+PROD0185,Specialty Pharma Product 185,Specialty Pharma,Supplier_B,Cologne,25.33,1.758,399,382,3844
+PROD0186,Prescription Drugs Product 186,Prescription Drugs,Supplier_C,Mannheim HQ,78.01,5.989,401,302,1451
+PROD0187,Prescription Drugs Product 187,Prescription Drugs,Supplier_D,Frankfurt,58.43,1.644,554,239,4925
+PROD0188,Vitamins & Supplements Product 188,Vitamins & Supplements,Supplier_J,Cologne,30.34,1.93,514,385,1311
+PROD0189,Vitamins & Supplements Product 189,Vitamins & Supplements,Supplier_J,Hamburg,11.99,0.915,376,66,3535
+PROD0190,OTC Medication Product 190,OTC Medication,Supplier_H,Hamburg,5.38,0.414,461,100,3509
+PROD0191,Vaccines Product 191,Vaccines,Supplier_K,Berlin,19.38,0.458,372,147,1500
+PROD0192,Vitamins & Supplements Product 192,Vitamins & Supplements,Supplier_B,Cologne,92.54,3.029,701,60,914
+PROD0193,Medical Devices Product 193,Medical Devices,Supplier_D,Munich,42.82,2.878,300,85,2197
+PROD0194,Vaccines Product 194,Vaccines,Supplier_D,Munich,7.43,0.295,241,453,523
+PROD0195,Medical Devices Product 195,Medical Devices,Supplier_C,Munich,40.76,2.137,268,106,711
+PROD0196,OTC Medication Product 196,OTC Medication,Supplier_A,Berlin,52.58,3.544,333,351,3152
+PROD0197,Prescription Drugs Product 197,Prescription Drugs,Supplier_C,Berlin,11.47,0.265,521,319,1431
+PROD0198,Specialty Pharma Product 198,Specialty Pharma,Supplier_B,Hamburg,39.82,1.868,460,312,1393
+PROD0199,Vitamins & Supplements Product 199,Vitamins & Supplements,Supplier_I,Munich,35.51,2.725,134,422,4771
+PROD0200,Medical Devices Product 200,Medical Devices,Supplier_H,Cologne,8.4,0.654,152,295,3790
+PROD0201,Vitamins & Supplements Product 201,Vitamins & Supplements,Supplier_K,Mannheim HQ,50.87,2.514,544,87,1161
+PROD0202,Medical Devices Product 202,Medical Devices,Supplier_J,Munich,64.91,1.554,371,369,4992
+PROD0203,Specialty Pharma Product 203,Specialty Pharma,Supplier_F,Hamburg,121.47,9.678,633,200,4216
+PROD0204,Vaccines Product 204,Vaccines,Supplier_J,Hamburg,117.28,3.043,207,486,2261
+PROD0205,Vitamins & Supplements Product 205,Vitamins & Supplements,Supplier_H,Munich,6.34,0.284,554,254,3907
+PROD0206,Specialty Pharma Product 206,Specialty Pharma,Supplier_B,Berlin,10.75,0.49,351,241,1750
+PROD0207,Specialty Pharma Product 207,Specialty Pharma,Supplier_H,Mannheim HQ,61.44,1.565,177,97,4037
+PROD0208,Prescription Drugs Product 208,Prescription Drugs,Supplier_L,Cologne,61.35,2.599,223,334,991
+PROD0209,Vaccines Product 209,Vaccines,Supplier_I,Frankfurt,61.44,2.444,215,260,3396
+PROD0210,Specialty Pharma Product 210,Specialty Pharma,Supplier_G,Cologne,3372.06,77.85,384,357,3059
+PROD0211,Medical Devices Product 211,Medical Devices,Supplier_B,Frankfurt,65.7,3.314,248,386,4450
+PROD0212,OTC Medication Product 212,OTC Medication,Supplier_B,Berlin,129.37,9.149,466,108,2782
+PROD0213,Vaccines Product 213,Vaccines,Supplier_D,Hamburg,104.04,7.357,726,364,715
+PROD0214,Vaccines Product 214,Vaccines,Supplier_K,Cologne,72.36,2.608,274,189,3031
+PROD0215,Medical Devices Product 215,Medical Devices,Supplier_F,Mannheim HQ,22.68,0.701,236,339,3783
+PROD0216,Prescription Drugs Product 216,Prescription Drugs,Supplier_C,Cologne,82.33,4.774,121,96,4845
+PROD0217,OTC Medication Product 217,OTC Medication,Supplier_G,Hamburg,13.1,0.619,251,239,3052
+PROD0218,Specialty Pharma Product 218,Specialty Pharma,Supplier_F,Frankfurt,24.92,1.39,143,129,1789
+PROD0219,Vaccines Product 219,Vaccines,Supplier_A,Cologne,18.5,0.46,543,388,3973
+PROD0220,Vitamins & Supplements Product 220,Vitamins & Supplements,Supplier_J,Hamburg,36.53,1.639,310,436,4697
+PROD0221,Prescription Drugs Product 221,Prescription Drugs,Supplier_F,Hamburg,532.5,14.193,697,299,4816
+PROD0222,Specialty Pharma Product 222,Specialty Pharma,Supplier_E,Mannheim HQ,3.52,0.117,703,78,562
+PROD0223,OTC Medication Product 223,OTC Medication,Supplier_E,Munich,75.45,4.983,351,198,3187
+PROD0224,Prescription Drugs Product 224,Prescription Drugs,Supplier_A,Hamburg,4.78,0.31,269,116,3614
+PROD0225,Vaccines Product 225,Vaccines,Supplier_L,Munich,18.8,0.94,452,86,3752
+PROD0226,Specialty Pharma Product 226,Specialty Pharma,Supplier_A,Hamburg,122.33,2.584,169,491,3064
+PROD0227,Vaccines Product 227,Vaccines,Supplier_G,Frankfurt,35.77,1.583,517,198,1443
+PROD0228,Vitamins & Supplements Product 228,Vitamins & Supplements,Supplier_A,Berlin,9.09,0.275,722,285,3464
+PROD0229,Prescription Drugs Product 229,Prescription Drugs,Supplier_G,Mannheim HQ,14.04,0.486,693,255,4792
+PROD0230,Prescription Drugs Product 230,Prescription Drugs,Supplier_G,Berlin,74.85,4.847,316,220,1877
+PROD0231,Prescription Drugs Product 231,Prescription Drugs,Supplier_I,Cologne,13.78,0.37,612,149,3362
+PROD0232,Medical Devices Product 232,Medical Devices,Supplier_L,Cologne,42.94,2.959,331,102,1699
+PROD0233,Medical Devices Product 233,Medical Devices,Supplier_D,Munich,34.98,1.964,167,140,4547
+PROD0234,Vitamins & Supplements Product 234,Vitamins & Supplements,Supplier_J,Frankfurt,15.15,0.711,668,379,3147
+PROD0235,Specialty Pharma Product 235,Specialty Pharma,Supplier_F,Munich,433.86,20.125,570,276,2980
+PROD0236,Medical Devices Product 236,Medical Devices,Supplier_J,Mannheim HQ,70.86,2.914,165,208,4282
+PROD0237,Vitamins & Supplements Product 237,Vitamins & Supplements,Supplier_A,Mannheim HQ,2.91,0.123,383,89,1239
+PROD0238,Vaccines Product 238,Vaccines,Supplier_J,Frankfurt,41.42,1.784,684,333,836
+PROD0239,Vitamins & Supplements Product 239,Vitamins & Supplements,Supplier_J,Cologne,14.97,0.468,709,293,4607
+PROD0240,OTC Medication Product 240,OTC Medication,Supplier_A,Hamburg,92.1,2.414,441,415,1190
+PROD0241,Vaccines Product 241,Vaccines,Supplier_K,Munich,12.79,0.286,538,274,4793
+PROD0242,Vaccines Product 242,Vaccines,Supplier_J,Munich,28.86,1.207,379,248,3848
+PROD0243,Medical Devices Product 243,Medical Devices,Supplier_K,Frankfurt,60.7,1.405,432,83,3200
+PROD0244,Prescription Drugs Product 244,Prescription Drugs,Supplier_I,Cologne,93.59,4.042,348,420,1731
+PROD0245,Medical Devices Product 245,Medical Devices,Supplier_B,Frankfurt,7.84,0.469,448,208,3710
+PROD0246,OTC Medication Product 246,OTC Medication,Supplier_J,Cologne,22.17,1.691,407,336,3585
+PROD0247,Specialty Pharma Product 247,Specialty Pharma,Supplier_F,Munich,18.73,1.128,629,97,3968
+PROD0248,Vaccines Product 248,Vaccines,Supplier_F,Mannheim HQ,15.12,0.631,274,159,3299
+PROD0249,Vitamins & Supplements Product 249,Vitamins & Supplements,Supplier_D,Munich,275.49,22.039,248,89,2923
+PROD0250,Prescription Drugs Product 250,Prescription Drugs,Supplier_I,Frankfurt,53.84,3.774,629,69,3258
+PROD0251,Vaccines Product 251,Vaccines,Supplier_C,Frankfurt,7.29,0.311,256,142,1856
+PROD0252,Specialty Pharma Product 252,Specialty Pharma,Supplier_H,Mannheim HQ,99.63,4.449,333,277,2834
+PROD0253,Specialty Pharma Product 253,Specialty Pharma,Supplier_H,Munich,422.67,21.996,406,464,4342
+PROD0254,OTC Medication Product 254,OTC Medication,Supplier_F,Cologne,114.32,8.783,541,286,2808
+PROD0255,Vitamins & Supplements Product 255,Vitamins & Supplements,Supplier_I,Frankfurt,5.35,0.241,255,468,2135
+PROD0256,Vaccines Product 256,Vaccines,Supplier_C,Berlin,18.52,0.428,582,497,3540
+PROD0257,Vaccines Product 257,Vaccines,Supplier_B,Cologne,151.46,10.716,217,195,1187
+PROD0258,OTC Medication Product 258,OTC Medication,Supplier_E,Hamburg,14.17,1.053,240,475,4083
+PROD0259,Prescription Drugs Product 259,Prescription Drugs,Supplier_D,Hamburg,56.41,4.122,117,262,936
+PROD0260,Vitamins & Supplements Product 260,Vitamins & Supplements,Supplier_I,Berlin,83.89,2.865,173,241,2339
+PROD0261,Prescription Drugs Product 261,Prescription Drugs,Supplier_F,Mannheim HQ,10.89,0.766,433,455,1696
+PROD0262,OTC Medication Product 262,OTC Medication,Supplier_A,Berlin,30.83,2.314,573,406,1636
+PROD0263,Specialty Pharma Product 263,Specialty Pharma,Supplier_H,Hamburg,0.68,0.039,171,59,2596
+PROD0264,OTC Medication Product 264,OTC Medication,Supplier_C,Frankfurt,9.69,0.74,713,320,3967
+PROD0265,Prescription Drugs Product 265,Prescription Drugs,Supplier_E,Munich,24.46,0.931,138,172,3939
+PROD0266,Specialty Pharma Product 266,Specialty Pharma,Supplier_J,Hamburg,7.41,0.176,601,355,4891
+PROD0267,Prescription Drugs Product 267,Prescription Drugs,Supplier_K,Frankfurt,234.84,12.799,237,199,4016
+PROD0268,Prescription Drugs Product 268,Prescription Drugs,Supplier_J,Berlin,5.95,0.205,516,145,1201
+PROD0269,Vaccines Product 269,Vaccines,Supplier_F,Mannheim HQ,19.53,1.508,647,309,4658
+PROD0270,Vaccines Product 270,Vaccines,Supplier_A,Hamburg,38.74,2.805,134,375,3669
+PROD0271,Medical Devices Product 271,Medical Devices,Supplier_E,Cologne,186.7,3.916,159,226,2475
+PROD0272,Specialty Pharma Product 272,Specialty Pharma,Supplier_K,Cologne,5.91,0.155,685,426,3223
+PROD0273,OTC Medication Product 273,OTC Medication,Supplier_A,Berlin,133.73,7.056,269,475,4306
+PROD0274,Specialty Pharma Product 274,Specialty Pharma,Supplier_H,Cologne,33.52,1.037,228,82,4249
+PROD0275,Prescription Drugs Product 275,Prescription Drugs,Supplier_E,Munich,10.2,0.231,294,71,3085
+PROD0276,Medical Devices Product 276,Medical Devices,Supplier_I,Hamburg,57.66,4.575,646,292,2575
+PROD0277,Prescription Drugs Product 277,Prescription Drugs,Supplier_K,Munich,42.05,1.563,138,493,3219
+PROD0278,Medical Devices Product 278,Medical Devices,Supplier_B,Berlin,16.11,0.745,499,430,4102
+PROD0279,Vitamins & Supplements Product 279,Vitamins & Supplements,Supplier_F,Munich,36.01,1.792,599,238,4753
+PROD0280,Medical Devices Product 280,Medical Devices,Supplier_B,Cologne,20.86,0.948,530,358,1978
+PROD0281,Vaccines Product 281,Vaccines,Supplier_E,Berlin,37.95,0.993,425,388,2921
+PROD0282,Medical Devices Product 282,Medical Devices,Supplier_H,Frankfurt,73.3,4.622,260,403,4136
+PROD0283,Medical Devices Product 283,Medical Devices,Supplier_H,Mannheim HQ,222.12,14.129,451,364,4063
+PROD0284,Medical Devices Product 284,Medical Devices,Supplier_K,Mannheim HQ,7.5,0.184,505,236,4703
+PROD0285,Specialty Pharma Product 285,Specialty Pharma,Supplier_K,Munich,428.22,33.045,236,484,4089
+PROD0286,Prescription Drugs Product 286,Prescription Drugs,Supplier_C,Mannheim HQ,3.18,0.109,465,235,3636
+PROD0287,Vaccines Product 287,Vaccines,Supplier_A,Frankfurt,27.6,0.806,550,239,3547
+PROD0288,Vitamins & Supplements Product 288,Vitamins & Supplements,Supplier_B,Frankfurt,67.09,1.896,465,253,3075
+PROD0289,Specialty Pharma Product 289,Specialty Pharma,Supplier_E,Munich,46.39,3.602,116,426,2024
+PROD0290,Vitamins & Supplements Product 290,Vitamins & Supplements,Supplier_I,Hamburg,15.69,1.174,210,184,2632
+PROD0291,Specialty Pharma Product 291,Specialty Pharma,Supplier_H,Munich,25.8,2.058,382,405,4523
+PROD0292,OTC Medication Product 292,OTC Medication,Supplier_B,Munich,18.33,1.304,552,138,4146
+PROD0293,Prescription Drugs Product 293,Prescription Drugs,Supplier_K,Berlin,16.33,0.981,156,331,4941
+PROD0294,Medical Devices Product 294,Medical Devices,Supplier_E,Munich,91.79,5.756,268,456,3461
+PROD0295,Vaccines Product 295,Vaccines,Supplier_D,Mannheim HQ,50.83,4.021,232,171,4547
+PROD0296,Prescription Drugs Product 296,Prescription Drugs,Supplier_F,Frankfurt,14.42,0.783,568,461,1563
+PROD0297,Vaccines Product 297,Vaccines,Supplier_B,Mannheim HQ,97.47,3.758,580,319,3865
+PROD0298,Vitamins & Supplements Product 298,Vitamins & Supplements,Supplier_J,Mannheim HQ,47.88,1.318,414,378,1107
+PROD0299,Vitamins & Supplements Product 299,Vitamins & Supplements,Supplier_H,Cologne,87.83,4.483,221,499,1990
+PROD0300,OTC Medication Product 300,OTC Medication,Supplier_G,Frankfurt,70.5,5.262,146,475,1517
+PROD0301,Vaccines Product 301,Vaccines,Supplier_C,Berlin,12.25,0.366,420,413,2347
+PROD0302,Medical Devices Product 302,Medical Devices,Supplier_I,Berlin,16.91,1.196,346,150,2748
+PROD0303,OTC Medication Product 303,OTC Medication,Supplier_K,Berlin,81.19,4.617,185,307,1881
+PROD0304,Vaccines Product 304,Vaccines,Supplier_J,Munich,68.89,2.085,729,418,3265
+PROD0305,Vaccines Product 305,Vaccines,Supplier_A,Mannheim HQ,32.3,0.803,680,185,2226
+PROD0306,Vaccines Product 306,Vaccines,Supplier_G,Frankfurt,38.12,2.224,599,371,4969
+PROD0307,Medical Devices Product 307,Medical Devices,Supplier_K,Berlin,153.42,7.514,505,202,4215
+PROD0308,Prescription Drugs Product 308,Prescription Drugs,Supplier_L,Mannheim HQ,16.28,0.48,515,297,4304
+PROD0309,OTC Medication Product 309,OTC Medication,Supplier_F,Frankfurt,63.85,1.827,416,425,3329
+PROD0310,Vitamins & Supplements Product 310,Vitamins & Supplements,Supplier_C,Berlin,25.98,1.322,198,213,2480
+PROD0311,Vitamins & Supplements Product 311,Vitamins & Supplements,Supplier_B,Berlin,25.5,1.198,234,99,914
+PROD0312,Medical Devices Product 312,Medical Devices,Supplier_G,Frankfurt,123.78,5.581,253,466,3182
+PROD0313,Vaccines Product 313,Vaccines,Supplier_L,Berlin,89.17,2.799,253,305,4716
+PROD0314,Vitamins & Supplements Product 314,Vitamins & Supplements,Supplier_H,Berlin,87.9,4.381,182,251,4640
+PROD0315,Vitamins & Supplements Product 315,Vitamins & Supplements,Supplier_D,Munich,158.63,8.725,139,75,2804
+PROD0316,Vitamins & Supplements Product 316,Vitamins & Supplements,Supplier_J,Cologne,33.96,2.05,382,324,566
+PROD0317,Prescription Drugs Product 317,Prescription Drugs,Supplier_G,Munich,75.06,5.476,464,441,3803
+PROD0318,Medical Devices Product 318,Medical Devices,Supplier_A,Hamburg,22.82,0.526,665,149,3469
+PROD0319,Vaccines Product 319,Vaccines,Supplier_E,Mannheim HQ,48.86,2.11,551,441,2791
+PROD0320,Vaccines Product 320,Vaccines,Supplier_K,Frankfurt,28.33,0.768,189,251,3557
+PROD0321,Medical Devices Product 321,Medical Devices,Supplier_I,Berlin,37.2,2.429,293,358,4670
+PROD0322,Vitamins & Supplements Product 322,Vitamins & Supplements,Supplier_I,Mannheim HQ,67.64,1.537,230,415,3228
+PROD0323,Vitamins & Supplements Product 323,Vitamins & Supplements,Supplier_I,Hamburg,12.41,0.359,617,121,3186
+PROD0324,Vaccines Product 324,Vaccines,Supplier_F,Munich,407.84,17.772,721,428,2951
+PROD0325,Vaccines Product 325,Vaccines,Supplier_F,Frankfurt,9.9,0.69,635,300,2955
+PROD0326,Vitamins & Supplements Product 326,Vitamins & Supplements,Supplier_A,Berlin,7.71,0.308,202,263,3020
+PROD0327,Specialty Pharma Product 327,Specialty Pharma,Supplier_L,Cologne,132.92,2.871,575,185,2364
+PROD0328,Specialty Pharma Product 328,Specialty Pharma,Supplier_A,Frankfurt,85.63,4.181,626,372,3614
+PROD0329,OTC Medication Product 329,OTC Medication,Supplier_K,Munich,70.03,1.533,202,147,655
+PROD0330,Vitamins & Supplements Product 330,Vitamins & Supplements,Supplier_F,Hamburg,70.39,2.047,298,260,4610
+PROD0331,Vaccines Product 331,Vaccines,Supplier_H,Cologne,32.63,2.077,231,315,2198
+PROD0332,Vaccines Product 332,Vaccines,Supplier_F,Cologne,11.28,0.55,475,210,1918
+PROD0333,Vitamins & Supplements Product 333,Vitamins & Supplements,Supplier_I,Berlin,36.27,1.914,360,362,4466
+PROD0334,OTC Medication Product 334,OTC Medication,Supplier_D,Berlin,14.69,0.786,320,202,2867
+PROD0335,Specialty Pharma Product 335,Specialty Pharma,Supplier_D,Cologne,106.71,6.648,414,295,3357
+PROD0336,Vaccines Product 336,Vaccines,Supplier_L,Berlin,27.76,1.034,677,396,4949
+PROD0337,Vitamins & Supplements Product 337,Vitamins & Supplements,Supplier_G,Berlin,12.3,0.95,239,198,844
+PROD0338,Medical Devices Product 338,Medical Devices,Supplier_L,Mannheim HQ,22.52,0.918,542,385,2600
+PROD0339,Specialty Pharma Product 339,Specialty Pharma,Supplier_H,Munich,54.35,1.746,641,188,2725
+PROD0340,OTC Medication Product 340,OTC Medication,Supplier_B,Frankfurt,16.84,1.085,335,174,915
+PROD0341,Specialty Pharma Product 341,Specialty Pharma,Supplier_I,Munich,12.35,0.719,143,101,3885
+PROD0342,Medical Devices Product 342,Medical Devices,Supplier_L,Hamburg,44.36,1.155,230,52,1793
+PROD0343,Vitamins & Supplements Product 343,Vitamins & Supplements,Supplier_K,Hamburg,44.43,2.161,294,437,2853
+PROD0344,Medical Devices Product 344,Medical Devices,Supplier_E,Cologne,18.02,0.424,181,383,2402
+PROD0345,Vaccines Product 345,Vaccines,Supplier_L,Cologne,18.82,1.336,128,139,3923
+PROD0346,OTC Medication Product 346,OTC Medication,Supplier_A,Hamburg,43.75,2.943,280,433,2871
+PROD0347,Prescription Drugs Product 347,Prescription Drugs,Supplier_A,Berlin,5.83,0.315,199,221,2831
+PROD0348,Vitamins & Supplements Product 348,Vitamins & Supplements,Supplier_K,Frankfurt,6.12,0.315,227,485,4630
+PROD0349,Vitamins & Supplements Product 349,Vitamins & Supplements,Supplier_E,Munich,13.98,0.958,428,133,4259
+PROD0350,Specialty Pharma Product 350,Specialty Pharma,Supplier_E,Cologne,25.63,0.799,435,454,2916
+PROD0351,Vaccines Product 351,Vaccines,Supplier_K,Munich,48.09,1.468,505,473,4003
+PROD0352,Vaccines Product 352,Vaccines,Supplier_F,Mannheim HQ,194.5,8.568,187,144,1651
+PROD0353,Vitamins & Supplements Product 353,Vitamins & Supplements,Supplier_F,Munich,92.68,1.892,482,170,4159
+PROD0354,Medical Devices Product 354,Medical Devices,Supplier_F,Berlin,27.33,1.502,676,55,2642
+PROD0355,Specialty Pharma Product 355,Specialty Pharma,Supplier_F,Cologne,32.37,1.106,211,288,3013
+PROD0356,OTC Medication Product 356,OTC Medication,Supplier_G,Cologne,9.94,0.499,408,403,1461
+PROD0357,Specialty Pharma Product 357,Specialty Pharma,Supplier_E,Berlin,32.39,1.842,314,118,4417
+PROD0358,OTC Medication Product 358,OTC Medication,Supplier_H,Cologne,23.42,1.858,472,262,4999
+PROD0359,Vitamins & Supplements Product 359,Vitamins & Supplements,Supplier_I,Cologne,48.78,3.392,343,398,1170
+PROD0360,Vaccines Product 360,Vaccines,Supplier_H,Frankfurt,12.27,0.764,169,338,1419
+PROD0361,Prescription Drugs Product 361,Prescription Drugs,Supplier_I,Frankfurt,61.76,1.984,639,126,1847
+PROD0362,Medical Devices Product 362,Medical Devices,Supplier_I,Hamburg,208.36,5.62,300,417,4504
+PROD0363,Prescription Drugs Product 363,Prescription Drugs,Supplier_I,Hamburg,29.06,1.991,554,117,4704
+PROD0364,Vitamins & Supplements Product 364,Vitamins & Supplements,Supplier_H,Frankfurt,53.63,1.258,563,394,3024
+PROD0365,Specialty Pharma Product 365,Specialty Pharma,Supplier_A,Hamburg,75.81,2.673,93,431,2285
+PROD0366,Vaccines Product 366,Vaccines,Supplier_B,Mannheim HQ,20.46,0.929,155,327,993
+PROD0367,Prescription Drugs Product 367,Prescription Drugs,Supplier_H,Mannheim HQ,43.33,1.613,274,443,1609
+PROD0368,Specialty Pharma Product 368,Specialty Pharma,Supplier_L,Cologne,33.62,2.617,473,245,4174
+PROD0369,Vitamins & Supplements Product 369,Vitamins & Supplements,Supplier_G,Mannheim HQ,37.23,2.27,642,118,3348
+PROD0370,Prescription Drugs Product 370,Prescription Drugs,Supplier_C,Frankfurt,13.1,0.571,220,422,2324
+PROD0371,Prescription Drugs Product 371,Prescription Drugs,Supplier_A,Berlin,34.1,1.629,647,267,4857
+PROD0372,Vitamins & Supplements Product 372,Vitamins & Supplements,Supplier_D,Munich,60.2,2.868,248,191,2044
+PROD0373,Specialty Pharma Product 373,Specialty Pharma,Supplier_B,Mannheim HQ,188.93,12.955,519,364,628
+PROD0374,OTC Medication Product 374,OTC Medication,Supplier_D,Mannheim HQ,104.7,2.728,124,278,898
+PROD0375,OTC Medication Product 375,OTC Medication,Supplier_L,Mannheim HQ,438.7,19.362,329,326,2279
+PROD0376,Prescription Drugs Product 376,Prescription Drugs,Supplier_C,Frankfurt,13.19,1.05,329,467,3112
+PROD0377,Vaccines Product 377,Vaccines,Supplier_J,Cologne,94.33,6.518,332,204,1673
+PROD0378,Specialty Pharma Product 378,Specialty Pharma,Supplier_I,Munich,41.26,1.849,371,81,1934
+PROD0379,Specialty Pharma Product 379,Specialty Pharma,Supplier_K,Hamburg,458.41,24.457,138,226,3622
+PROD0380,Vaccines Product 380,Vaccines,Supplier_F,Cologne,12.55,0.565,242,203,3583
+PROD0381,OTC Medication Product 381,OTC Medication,Supplier_I,Hamburg,12.09,0.417,320,203,1682
+PROD0382,Vitamins & Supplements Product 382,Vitamins & Supplements,Supplier_A,Frankfurt,16.13,0.722,516,335,4841
+PROD0383,OTC Medication Product 383,OTC Medication,Supplier_G,Munich,2.59,0.091,428,381,1147
+PROD0384,Vitamins & Supplements Product 384,Vitamins & Supplements,Supplier_F,Mannheim HQ,17.62,0.919,285,76,2699
+PROD0385,Vitamins & Supplements Product 385,Vitamins & Supplements,Supplier_K,Frankfurt,13.32,0.748,164,146,2277
+PROD0386,Vitamins & Supplements Product 386,Vitamins & Supplements,Supplier_D,Berlin,39.67,1.515,105,158,2056
+PROD0387,Specialty Pharma Product 387,Specialty Pharma,Supplier_B,Cologne,49.9,3.991,580,174,2175
+PROD0388,Vitamins & Supplements Product 388,Vitamins & Supplements,Supplier_D,Frankfurt,314.63,12.364,379,244,4319
+PROD0389,Vaccines Product 389,Vaccines,Supplier_K,Berlin,103.6,3.989,458,312,4573
+PROD0390,Vitamins & Supplements Product 390,Vitamins & Supplements,Supplier_B,Cologne,16.57,0.798,417,154,3536
+PROD0391,Medical Devices Product 391,Medical Devices,Supplier_G,Mannheim HQ,11.27,0.606,316,429,1695
+PROD0392,Prescription Drugs Product 392,Prescription Drugs,Supplier_E,Frankfurt,59.76,4.547,683,418,3920
+PROD0393,Medical Devices Product 393,Medical Devices,Supplier_C,Munich,6.79,0.27,478,341,2513
+PROD0394,Vitamins & Supplements Product 394,Vitamins & Supplements,Supplier_I,Cologne,298.2,22.844,435,181,4502
+PROD0395,Specialty Pharma Product 395,Specialty Pharma,Supplier_K,Cologne,136.36,6.741,262,425,3385
+PROD0396,OTC Medication Product 396,OTC Medication,Supplier_C,Cologne,18.86,0.996,278,327,981
+PROD0397,Vaccines Product 397,Vaccines,Supplier_A,Mannheim HQ,4.24,0.325,139,441,552
+PROD0398,Vitamins & Supplements Product 398,Vitamins & Supplements,Supplier_C,Cologne,168.11,5.697,244,54,2291
+PROD0399,Vaccines Product 399,Vaccines,Supplier_H,Berlin,28.86,0.682,721,297,4496
+PROD0400,Prescription Drugs Product 400,Prescription Drugs,Supplier_A,Frankfurt,146.26,7.766,102,58,4836
+PROD0401,Specialty Pharma Product 401,Specialty Pharma,Supplier_E,Frankfurt,4.89,0.384,107,307,4027
+PROD0402,OTC Medication Product 402,OTC Medication,Supplier_B,Mannheim HQ,16.13,0.83,336,148,4812
+PROD0403,Medical Devices Product 403,Medical Devices,Supplier_F,Berlin,33.32,2.256,170,241,3826
+PROD0404,Vitamins & Supplements Product 404,Vitamins & Supplements,Supplier_J,Munich,35.04,2.782,321,203,1160
+PROD0405,Specialty Pharma Product 405,Specialty Pharma,Supplier_K,Mannheim HQ,19.3,0.494,478,243,4399
+PROD0406,Prescription Drugs Product 406,Prescription Drugs,Supplier_K,Mannheim HQ,69.92,4.347,174,305,4054
+PROD0407,Specialty Pharma Product 407,Specialty Pharma,Supplier_F,Frankfurt,9.2,0.723,187,320,848
+PROD0408,OTC Medication Product 408,OTC Medication,Supplier_D,Cologne,27.91,2.045,576,188,881
+PROD0409,Prescription Drugs Product 409,Prescription Drugs,Supplier_K,Berlin,38.26,2.83,667,386,769
+PROD0410,OTC Medication Product 410,OTC Medication,Supplier_F,Mannheim HQ,61.39,4.77,691,123,3762
+PROD0411,Prescription Drugs Product 411,Prescription Drugs,Supplier_E,Munich,77.78,4.188,670,477,3687
+PROD0412,Specialty Pharma Product 412,Specialty Pharma,Supplier_I,Berlin,8.59,0.37,233,454,1142
+PROD0413,Vaccines Product 413,Vaccines,Supplier_L,Berlin,5.25,0.122,537,168,1122
+PROD0414,Medical Devices Product 414,Medical Devices,Supplier_J,Frankfurt,153.43,11.858,496,446,3173
+PROD0415,Prescription Drugs Product 415,Prescription Drugs,Supplier_K,Berlin,49.34,3.307,551,301,2368
+PROD0416,Medical Devices Product 416,Medical Devices,Supplier_I,Hamburg,13.49,0.619,689,388,3613
+PROD0417,Prescription Drugs Product 417,Prescription Drugs,Supplier_J,Berlin,213.02,14.46,165,92,2695
+PROD0418,OTC Medication Product 418,OTC Medication,Supplier_G,Cologne,38.05,2.55,247,428,3691
+PROD0419,Medical Devices Product 419,Medical Devices,Supplier_F,Mannheim HQ,136.34,3.475,405,277,3448
+PROD0420,Medical Devices Product 420,Medical Devices,Supplier_B,Munich,35.91,0.906,531,279,4697
+PROD0421,Vitamins & Supplements Product 421,Vitamins & Supplements,Supplier_B,Mannheim HQ,392.64,9.964,657,97,3157
+PROD0422,Vitamins & Supplements Product 422,Vitamins & Supplements,Supplier_A,Berlin,272.17,12.201,176,421,2488
+PROD0423,Vaccines Product 423,Vaccines,Supplier_I,Munich,24.56,1.501,263,121,2702
+PROD0424,Medical Devices Product 424,Medical Devices,Supplier_E,Hamburg,106.26,3.056,261,272,2760
+PROD0425,Vitamins & Supplements Product 425,Vitamins & Supplements,Supplier_E,Hamburg,71.84,4.81,459,178,2520
+PROD0426,Specialty Pharma Product 426,Specialty Pharma,Supplier_K,Hamburg,171.12,9.519,290,284,1376
+PROD0427,OTC Medication Product 427,OTC Medication,Supplier_E,Mannheim HQ,10.4,0.8,430,480,3612
+PROD0428,Medical Devices Product 428,Medical Devices,Supplier_H,Berlin,75.43,3.458,698,119,2961
+PROD0429,Medical Devices Product 429,Medical Devices,Supplier_J,Cologne,117.93,3.78,411,140,3762
+PROD0430,Medical Devices Product 430,Medical Devices,Supplier_E,Cologne,4.01,0.248,592,344,2485
+PROD0431,Medical Devices Product 431,Medical Devices,Supplier_G,Berlin,8.01,0.552,492,236,1432
+PROD0432,Vaccines Product 432,Vaccines,Supplier_D,Frankfurt,2.87,0.229,274,399,720
+PROD0433,Specialty Pharma Product 433,Specialty Pharma,Supplier_H,Cologne,23.97,0.781,388,475,1066
+PROD0434,Vitamins & Supplements Product 434,Vitamins & Supplements,Supplier_K,Hamburg,78.34,2.221,400,173,2569
+PROD0435,Specialty Pharma Product 435,Specialty Pharma,Supplier_C,Cologne,200.9,9.119,476,87,4178
+PROD0436,Vaccines Product 436,Vaccines,Supplier_H,Frankfurt,36.19,1.594,608,495,3926
+PROD0437,Vaccines Product 437,Vaccines,Supplier_A,Berlin,233.77,14.517,639,354,1196
+PROD0438,Prescription Drugs Product 438,Prescription Drugs,Supplier_D,Cologne,6.32,0.379,260,381,862
+PROD0439,Vaccines Product 439,Vaccines,Supplier_K,Cologne,4.29,0.252,429,457,4026
+PROD0440,Prescription Drugs Product 440,Prescription Drugs,Supplier_A,Mannheim HQ,30.98,1.101,612,432,4749
+PROD0441,Vaccines Product 441,Vaccines,Supplier_J,Cologne,52.5,2.862,546,241,3704
+PROD0442,Vitamins & Supplements Product 442,Vitamins & Supplements,Supplier_K,Frankfurt,31.84,1.956,244,226,701
+PROD0443,Vitamins & Supplements Product 443,Vitamins & Supplements,Supplier_B,Berlin,2.77,0.125,177,109,1660
+PROD0444,Medical Devices Product 444,Medical Devices,Supplier_E,Berlin,29.76,1.408,301,316,4456
+PROD0445,Medical Devices Product 445,Medical Devices,Supplier_H,Mannheim HQ,6.92,0.32,553,213,1050
+PROD0446,Medical Devices Product 446,Medical Devices,Supplier_A,Cologne,73.97,1.99,441,381,1395
+PROD0447,Specialty Pharma Product 447,Specialty Pharma,Supplier_C,Cologne,51.41,1.781,268,332,1811
+PROD0448,Medical Devices Product 448,Medical Devices,Supplier_I,Hamburg,10.72,0.831,327,458,3818
+PROD0449,Specialty Pharma Product 449,Specialty Pharma,Supplier_C,Munich,17.87,1.044,532,252,739
+PROD0450,Specialty Pharma Product 450,Specialty Pharma,Supplier_J,Munich,9.29,0.436,529,249,536
+PROD0451,Specialty Pharma Product 451,Specialty Pharma,Supplier_D,Munich,30.72,1.127,154,345,1333
+PROD0452,Vaccines Product 452,Vaccines,Supplier_C,Berlin,104.19,4.121,558,108,2649
+PROD0453,Specialty Pharma Product 453,Specialty Pharma,Supplier_H,Frankfurt,10.15,0.791,410,355,3683
+PROD0454,Vaccines Product 454,Vaccines,Supplier_G,Frankfurt,60.63,1.628,450,482,4250
+PROD0455,Vaccines Product 455,Vaccines,Supplier_C,Cologne,17.53,1.093,394,364,1194
+PROD0456,Specialty Pharma Product 456,Specialty Pharma,Supplier_C,Berlin,12.79,0.346,402,109,1999
+PROD0457,Medical Devices Product 457,Medical Devices,Supplier_L,Munich,29.12,1.475,518,355,1629
+PROD0458,Vaccines Product 458,Vaccines,Supplier_G,Hamburg,9.56,0.298,640,405,1919
+PROD0459,Vaccines Product 459,Vaccines,Supplier_C,Hamburg,17.04,0.636,281,211,4194
+PROD0460,Vaccines Product 460,Vaccines,Supplier_A,Berlin,7.87,0.607,586,119,2098
+PROD0461,Vitamins & Supplements Product 461,Vitamins & Supplements,Supplier_I,Frankfurt,349.91,20.709,508,400,4528
+PROD0462,Vitamins & Supplements Product 462,Vitamins & Supplements,Supplier_L,Hamburg,34.55,1.704,174,339,752
+PROD0463,OTC Medication Product 463,OTC Medication,Supplier_E,Mannheim HQ,14.3,0.522,640,197,1877
+PROD0464,Vitamins & Supplements Product 464,Vitamins & Supplements,Supplier_J,Cologne,42.81,2.841,597,331,4684
+PROD0465,Prescription Drugs Product 465,Prescription Drugs,Supplier_J,Mannheim HQ,28.94,1.044,646,471,3505
+PROD0466,Vaccines Product 466,Vaccines,Supplier_A,Cologne,25.4,1.181,313,267,1338
+PROD0467,Specialty Pharma Product 467,Specialty Pharma,Supplier_K,Munich,69.2,2.62,123,280,2652
+PROD0468,Medical Devices Product 468,Medical Devices,Supplier_B,Hamburg,82.19,5.911,210,447,2441
+PROD0469,OTC Medication Product 469,OTC Medication,Supplier_L,Frankfurt,17.52,1.075,714,373,4007
+PROD0470,OTC Medication Product 470,OTC Medication,Supplier_J,Munich,16.59,1.113,301,462,986
+PROD0471,Vaccines Product 471,Vaccines,Supplier_F,Frankfurt,23.81,0.878,641,136,3151
+PROD0472,Specialty Pharma Product 472,Specialty Pharma,Supplier_E,Berlin,2.09,0.114,616,397,1280
+PROD0473,OTC Medication Product 473,OTC Medication,Supplier_G,Mannheim HQ,5.38,0.428,219,409,1587
+PROD0474,OTC Medication Product 474,OTC Medication,Supplier_C,Cologne,170.76,6.715,343,439,3717
+PROD0475,Vitamins & Supplements Product 475,Vitamins & Supplements,Supplier_C,Frankfurt,238.4,13.814,514,242,4202
+PROD0476,Prescription Drugs Product 476,Prescription Drugs,Supplier_K,Mannheim HQ,24.56,1.085,374,405,3523
+PROD0477,Vitamins & Supplements Product 477,Vitamins & Supplements,Supplier_H,Berlin,66.15,3.633,185,424,4255
+PROD0478,Specialty Pharma Product 478,Specialty Pharma,Supplier_K,Cologne,48.11,1.996,154,457,4878
+PROD0479,Vitamins & Supplements Product 479,Vitamins & Supplements,Supplier_D,Hamburg,1332.29,92.582,596,187,3144
+PROD0480,Medical Devices Product 480,Medical Devices,Supplier_F,Frankfurt,126.91,6.939,669,486,4475
+PROD0481,Medical Devices Product 481,Medical Devices,Supplier_K,Mannheim HQ,28.4,0.646,560,58,1517
+PROD0482,OTC Medication Product 482,OTC Medication,Supplier_H,Hamburg,10.52,0.211,528,153,1580
+PROD0483,Specialty Pharma Product 483,Specialty Pharma,Supplier_E,Munich,4.82,0.349,370,97,3452
+PROD0484,Medical Devices Product 484,Medical Devices,Supplier_B,Berlin,42.27,2.531,259,76,3746
+PROD0485,Specialty Pharma Product 485,Specialty Pharma,Supplier_E,Cologne,13.36,0.828,329,269,1247
+PROD0486,Specialty Pharma Product 486,Specialty Pharma,Supplier_B,Mannheim HQ,6.01,0.197,169,117,2352
+PROD0487,Vaccines Product 487,Vaccines,Supplier_K,Hamburg,15.24,0.313,441,468,1487
+PROD0488,Vitamins & Supplements Product 488,Vitamins & Supplements,Supplier_L,Munich,9.04,0.44,324,246,1231
+PROD0489,Specialty Pharma Product 489,Specialty Pharma,Supplier_B,Mannheim HQ,250.78,9.73,396,120,3635
+PROD0490,OTC Medication Product 490,OTC Medication,Supplier_K,Cologne,95.39,2.725,633,338,569
+PROD0491,Vaccines Product 491,Vaccines,Supplier_K,Munich,32.8,1.522,308,371,1740
+PROD0492,Vitamins & Supplements Product 492,Vitamins & Supplements,Supplier_J,Cologne,195.57,9.103,312,94,1323
+PROD0493,OTC Medication Product 493,OTC Medication,Supplier_B,Frankfurt,36.34,2.318,449,269,3076
+PROD0494,OTC Medication Product 494,OTC Medication,Supplier_D,Berlin,11.78,0.691,344,333,2834
+PROD0495,Specialty Pharma Product 495,Specialty Pharma,Supplier_A,Cologne,205.97,14.943,300,315,4674
+PROD0496,OTC Medication Product 496,OTC Medication,Supplier_L,Hamburg,63.22,2.386,145,451,2460
+PROD0497,Vitamins & Supplements Product 497,Vitamins & Supplements,Supplier_G,Mannheim HQ,9.54,0.329,698,86,4827
+PROD0498,Prescription Drugs Product 498,Prescription Drugs,Supplier_F,Berlin,26.35,0.736,672,265,3493
+PROD0499,Vaccines Product 499,Vaccines,Supplier_K,Munich,11.58,0.762,164,58,1053
+PROD0500,Prescription Drugs Product 500,Prescription Drugs,Supplier_E,Munich,6.3,0.141,151,454,3760

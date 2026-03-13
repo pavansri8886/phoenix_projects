@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html><head><meta charset='UTF-8'>
+<title>Customer Churn Analytics — PHOENIX Group</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+body{background:#F5F3FF;color:#1A1A1A}
+.header{background:#1E1B2E;color:white;padding:28px 36px}
+.header h1{font-size:22px;font-weight:700}
+.header p{color:#A78BFA;font-size:13px;margin-top:4px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:24px 36px}
+.kpi{background:white;border-radius:10px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,0.08)}
+.kpi .val{font-size:28px;font-weight:700;color:#6D28D9}
+.kpi .lbl{font-size:12px;color:#6B7280;margin-top:4px}
+.section{padding:0 36px 24px}
+.section h2{font-size:14px;font-weight:700;color:#3B0764;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;border-bottom:2px solid #6D28D9;padding-bottom:6px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.card{background:white;border-radius:10px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,0.08)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;padding:8px 10px;background:#F5F3FF;color:#5B21B6;font-weight:600}
+td{padding:8px 10px;border-bottom:1px solid #F3F4F6}
+tr:last-child td{border-bottom:none}
+.auc{background:#EDE9FE;border-radius:8px;padding:12px 20px;margin-bottom:16px;font-size:13px;color:#5B21B6;font-weight:600}
+</style></head><body>
+<div class='header'>
+  <h1>Customer Churn Analytics Dashboard</h1>
+  <p>PHOENIX Group · Operational Controlling Analytics · MSc Project ECE Paris 2025–2026</p>
+</div>
+<div class='kpis'>
+  <div class='kpi'><div class='val'>2,000</div><div class='lbl'>Total Customers</div></div>
+  <div class='kpi'><div class='val'>951</div><div class='lbl'>Churned Customers</div></div>
+  <div class='kpi'><div class='val'>47.5%</div><div class='lbl'>Overall Churn Rate</div></div>
+  <div class='kpi'><div class='val'>€6,735,568</div><div class='lbl'>Monthly Revenue at Risk</div></div>
+</div>
+<div class='section'>
+  <h2>Model Performance</h2>
+  <div class='auc'>Random Forest Classifier · AUC Score: 0.916 · Trained on 1,600 customers · Validated on 400</div>
+</div>
+<div class='section'>
+  <div class='grid2'>
+    <div class='card'>
+      <h2>Churn by Region</h2>
+      <table><tr><th>Region</th><th>Customers</th><th>Churn Rate</th><th>Avg Value</th></tr><tr><td>Baden-Württemberg</td><td>295</td><td>43.7%</td><td>€6,654</td></tr><tr><td>Bavaria</td><td>291</td><td>46.0%</td><td>€7,458</td></tr><tr><td>Berlin</td><td>302</td><td>49.3%</td><td>€6,867</td></tr><tr><td>Hamburg</td><td>286</td><td>52.1%</td><td>€6,660</td></tr><tr><td>Hesse</td><td>281</td><td>50.2%</td><td>€7,704</td></tr><tr><td>NRW</td><td>284</td><td>44.0%</td><td>€6,719</td></tr><tr><td>Saxony</td><td>261</td><td>47.5%</td><td>€6,865</td></tr></table>
+    </div>
+    <div class='card'>
+      <h2>Churn by Segment</h2>
+      <table><tr><th>Segment</th><th>Customers</th><th>Churn Rate</th><th>Avg Value</th></tr><tr><td>Chain Pharmacy</td><td>477</td><td>50.5%</td><td>€6,919</td></tr><tr><td>Hospital Pharmacy</td><td>527</td><td>45.9%</td><td>€7,278</td></tr><tr><td>Independent Pharmacy</td><td>492</td><td>48.0%</td><td>€7,042</td></tr><tr><td>Online Pharmacy</td><td>504</td><td>46.0%</td><td>€6,698</td></tr></table>
+    </div>
+  </div>
+</div>
+<div class='section'>
+  <div class='grid2'>
+    <div class='card'>
+      <h2>Top Churn Predictors</h2>
+      <table><tr><th>Feature</th><th>Importance</th><th>Score</th></tr><tr><td>last_order_days_ago</td><td><div style='background:#6D28D9;height:16px;width:106px;border-radius:3px'></div></td><td>0.265</td></tr><tr><td>support_tickets_last_6m</td><td><div style='background:#6D28D9;height:16px;width:51px;border-radius:3px'></div></td><td>0.127</td></tr><tr><td>nps_score</td><td><div style='background:#6D28D9;height:16px;width:50px;border-radius:3px'></div></td><td>0.125</td></tr><tr><td>late_payments_last_12m</td><td><div style='background:#6D28D9;height:16px;width:48px;border-radius:3px'></div></td><td>0.121</td></tr><tr><td>monthly_order_value_eur</td><td><div style='background:#6D28D9;height:16px;width:35px;border-radius:3px'></div></td><td>0.088</td></tr><tr><td>discount_rate</td><td><div style='background:#6D28D9;height:16px;width:34px;border-radius:3px'></div></td><td>0.086</td></tr></table>
+    </div>
+    <div class='card'>
+      <h2>Revenue at Risk by Tier</h2>
+      <table><tr><th>Risk Tier</th><th>Customers</th><th>Monthly Revenue</th></tr><tr><td>High Risk</td><td>786</td><td>€5,408,203</td></tr><tr><td>Low Risk</td><td>263</td><td>€1,832,849</td></tr></table>
+    </div>
+  </div>
+</div>
+</body></html>

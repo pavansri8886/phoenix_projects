@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html><head><meta charset='UTF-8'>
+<title>Inventory Cost Dashboard — PHOENIX Group</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+body{background:#F0FDF4;color:#1A1A1A}
+.header{background:#0A1F0E;color:white;padding:28px 36px}
+.header h1{font-size:22px;font-weight:700}
+.header p{color:#86EFAC;font-size:13px;margin-top:4px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:24px 36px}
+.kpi{background:white;border-radius:10px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,0.08)}
+.kpi .val{font-size:26px;font-weight:700;color:#1D8348}
+.kpi .lbl{font-size:12px;color:#6B7280;margin-top:4px}
+.section{padding:0 36px 24px}
+.section h2{font-size:14px;font-weight:700;color:#145A32;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;border-bottom:2px solid #3DCD58;padding-bottom:6px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.card{background:white;border-radius:10px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,0.08)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;padding:8px 10px;background:#F0FDF4;color:#1D8348;font-weight:600}
+td{padding:8px 10px;border-bottom:1px solid #F3F4F6}
+</style></head><body>
+<div class='header'>
+  <h1>Pharmaceutical Inventory Cost Dashboard</h1>
+  <p>PHOENIX Group · Operational Controlling Analytics · MSc Project ECE Paris 2025–2026</p>
+</div>
+<div class='kpis'>
+  <div class='kpi'><div class='val'>500</div><div class='lbl'>Products Tracked</div></div>
+  <div class='kpi'><div class='val'>€688.2M</div><div class='lbl'>Total Stock Cost (12M)</div></div>
+  <div class='kpi'><div class='val'>€16.85M</div><div class='lbl'>Total Waste Cost</div></div>
+  <div class='kpi'><div class='val'>2.45%</div><div class='lbl'>Waste Rate</div></div>
+</div>
+<div class='section'>
+  <div class='grid2'>
+    <div class='card'>
+      <h2>Cost by Product Category</h2>
+      <table><tr><th>Category</th><th>Stock Cost</th><th>Waste Cost</th><th>Waste %</th><th>Margin %</th></tr><tr><td>Specialty Pharma</td><td>€225,070,317</td><td>€5,209,836</td><td>2.31%</td><td>-161.59%</td></tr><tr><td>Vitamins & Supplements</td><td>€133,597,182</td><td>€3,440,507</td><td>2.58%</td><td>-148.3%</td></tr><tr><td>Prescription Drugs</td><td>€89,370,962</td><td>€2,256,458</td><td>2.52%</td><td>-156.3%</td></tr><tr><td>Medical Devices</td><td>€84,795,554</td><td>€2,193,775</td><td>2.59%</td><td>-166.49%</td></tr><tr><td>Vaccines</td><td>€79,908,409</td><td>€1,899,664</td><td>2.38%</td><td>-155.34%</td></tr><tr><td>OTC Medication</td><td>€75,436,802</td><td>€1,845,539</td><td>2.45%</td><td>-137.23%</td></tr></table>
+    </div>
+    <div class='card'>
+      <h2>Efficiency by Warehouse</h2>
+      <table><tr><th>Warehouse</th><th>Stock Cost</th><th>Storage Cost</th><th>Efficiency</th></tr><tr><td>Mannheim HQ</td><td>€108,519,365</td><td>€5,028,781</td><td>97.7%</td></tr><tr><td>Cologne</td><td>€174,729,512</td><td>€6,794,802</td><td>97.6%</td></tr><tr><td>Hamburg</td><td>€115,394,433</td><td>€5,629,999</td><td>97.6%</td></tr><tr><td>Frankfurt</td><td>€89,941,137</td><td>€4,636,788</td><td>97.5%</td></tr><tr><td>Munich</td><td>€118,668,636</td><td>€6,356,161</td><td>97.5%</td></tr><tr><td>Berlin</td><td>€80,926,143</td><td>€4,247,335</td><td>97.4%</td></tr></table>
+    </div>
+  </div>
+</div>
+<div class='section'>
+  <div class='card'>
+    <h2>Monthly Cost Trend</h2>
+    <table><tr><th>Month</th><th>Stock Cost</th><th>Waste Cost</th><th>Revenue</th><th>Reorders</th></tr><tr><td>2024-01</td><td>€120,105,807</td><td>€2,922,285</td><td>€46,233,280</td><td>72</td></tr><tr><td>2024-03</td><td>€109,254,931</td><td>€2,548,780</td><td>€41,246,107</td><td>99</td></tr><tr><td>2024-04</td><td>€56,985,812</td><td>€1,365,263</td><td>€22,757,329</td><td>30</td></tr><tr><td>2024-05</td><td>€61,095,481</td><td>€1,622,331</td><td>€23,241,757</td><td>27</td></tr><tr><td>2024-06</td><td>€57,550,325</td><td>€1,371,634</td><td>€19,799,034</td><td>37</td></tr><tr><td>2024-07</td><td>€52,032,338</td><td>€1,328,795</td><td>€21,739,365</td><td>42</td></tr><tr><td>2024-08</td><td>€60,408,849</td><td>€1,454,396</td><td>€28,155,069</td><td>50</td></tr><tr><td>2024-09</td><td>€53,457,104</td><td>€1,481,437</td><td>€25,319,910</td><td>36</td></tr><tr><td>2024-10</td><td>€57,836,964</td><td>€1,244,925</td><td>€20,906,443</td><td>48</td></tr><tr><td>2024-11</td><td>€59,451,615</td><td>€1,505,932</td><td>€20,229,548</td><td>37</td></tr></table>
+  </div>
+</div>
+</body></html>

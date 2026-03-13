@@ -1,0 +1,11 @@
+feature,importance
+last_order_days_ago,0.2652827253449504
+support_tickets_last_6m,0.12728173020453873
+nps_score,0.125446214910457
+late_payments_last_12m,0.12113114563378201
+monthly_order_value_eur,0.08797987918824995
+discount_rate,0.08552668770164958
+order_frequency_per_month,0.07569789564077252
+product_categories_ordered,0.045194547475640154
+region_enc,0.04021459622835196
+segment_enc,0.026244577671607656

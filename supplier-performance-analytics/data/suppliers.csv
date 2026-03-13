@@ -1,0 +1,41 @@
+supplier_id,supplier_name,country,category,contract_value_eur,payment_terms_days,base_reliability,years_active,iso_certified
+SUP001,PharmaSupplier A,Germany,Medical Devices,242164,45,0.8429821834139958,4,True
+SUP002,PharmaSupplier B,Denmark,Specialty Pharma,145712,30,0.8798590613823247,10,False
+SUP003,PharmaSupplier C,Germany,OTC Medication,273252,45,0.6120774182030777,9,True
+SUP004,PharmaSupplier D,Denmark,Specialty Pharma,550413,90,0.813273123916673,4,False
+SUP005,PharmaSupplier E,Belgium,Prescription Drugs,134952,45,0.8239209598728453,12,False
+SUP006,PharmaSupplier F,Netherlands,OTC Medication,134954,60,0.7292951962768369,2,True
+SUP007,PharmaSupplier G,Switzerland,Medical Devices,575716,60,0.7443723742421882,13,True
+SUP008,PharmaSupplier H,Italy,Prescription Drugs,300724,90,0.8772980789436507,2,True
+SUP009,PharmaSupplier I,Italy,Medical Devices,111795,45,0.915173772416138,12,True
+SUP010,PharmaSupplier J,Netherlands,Medical Devices,251211,30,0.6174132657891516,14,True
+SUP011,PharmaSupplier K,France,Medical Devices,112338,90,0.9292637933670025,11,True
+SUP012,PharmaSupplier L,Switzerland,OTC Medication,112130,60,0.6618085569193122,12,True
+SUP013,PharmaSupplier M,Netherlands,Specialty Pharma,197515,45,0.8314697821534555,3,False
+SUP014,PharmaSupplier N,Denmark,Specialty Pharma,35220,45,0.7441930678679062,11,True
+SUP015,PharmaSupplier O,Belgium,Prescription Drugs,40948,45,0.9202837296721276,14,True
+SUP016,PharmaSupplier P,France,Medical Devices,103795,30,0.9059174042930614,4,True
+SUP017,PharmaSupplier Q,France,Vaccines,72384,90,0.6807980867405734,3,True
+SUP018,PharmaSupplier R,Denmark,Specialty Pharma,209274,60,0.6530595214196924,12,False
+SUP019,PharmaSupplier S,France,Medical Devices,78714,45,0.9411726957689412,3,False
+SUP020,PharmaSupplier T,Germany,Prescription Drugs,52583,45,0.6345455766260416,11,True
+SUP021,PharmaSupplier U,France,Specialty Pharma,525717,30,0.9009901584579263,7,False
+SUP022,PharmaSupplier V,France,Specialty Pharma,135860,60,0.8264376027772287,9,True
+SUP023,PharmaSupplier W,Germany,Specialty Pharma,171789,60,0.858507695897477,13,True
+SUP024,PharmaSupplier X,France,OTC Medication,52063,90,0.642389825966433,1,True
+SUP025,PharmaSupplier Y,Belgium,OTC Medication,105292,30,0.9693174775706435,14,True
+SUP026,PharmaSupplier Z,Italy,Specialty Pharma,177858,45,0.9198343523055375,3,True
+SUP027,PharmaSupplier A1,Italy,Specialty Pharma,64809,30,0.8897541040285575,10,True
+SUP028,PharmaSupplier B1,Germany,Medical Devices,219819,60,0.7856701690510002,4,True
+SUP029,PharmaSupplier C1,Italy,Prescription Drugs,100659,30,0.6915312051299486,12,False
+SUP030,PharmaSupplier D1,Belgium,Specialty Pharma,128881,45,0.9100888362996336,3,False
+SUP031,PharmaSupplier E1,Netherlands,Medical Devices,100573,90,0.9598024982878965,4,True
+SUP032,PharmaSupplier F1,France,Medical Devices,716277,90,0.8709206096712663,15,False
+SUP033,PharmaSupplier G1,Netherlands,Prescription Drugs,161007,60,0.645981594429941,1,True
+SUP034,PharmaSupplier H1,Germany,Prescription Drugs,69831,30,0.8236072434759334,4,True
+SUP035,PharmaSupplier I1,Belgium,Medical Devices,314279,30,0.9440596049423287,9,True
+SUP036,PharmaSupplier J1,France,OTC Medication,61287,45,0.7058213603065279,12,False
+SUP037,PharmaSupplier K1,France,Vaccines,192354,45,0.6923389521103753,2,True
+SUP038,PharmaSupplier L1,Switzerland,Vaccines,33937,90,0.850413444815572,8,True
+SUP039,PharmaSupplier M1,Denmark,Prescription Drugs,56244,30,0.8558785279714546,7,True
+SUP040,PharmaSupplier N1,Germany,OTC Medication,190516,45,0.9042251541274455,4,False
